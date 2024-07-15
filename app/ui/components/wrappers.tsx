@@ -3,9 +3,9 @@ import { DiscountCard, ItemCard } from "./cards";
 
 export function DiscountCardsWrapper({cards}: {cards: DiscountInfo[]}) {
     return (
-        <>
+        <div className="flex flex-row animate__animated animate__fadeInUp">
             {cards.map((card, i) => <DiscountCard key={i} card={card} />)}
-        </>
+        </div>
     );
 }
 
