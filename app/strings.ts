@@ -44,6 +44,8 @@ const strings_langs = {
         pizza_phrase: "Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.",
 
         order_btn: "PROCEED TO ORDER >",
+
+        footer_title: "Are you ready to order with the best deals?"
     }  
 }
 
