@@ -18,6 +18,32 @@ const strings_langs = {
         hdiw_item4_body: "Food is made and delivered directly to your home.",
 
         populars_title: "Popular items",
+
+        daily: "Daily",
+        discount: "Discount",
+        live: "Live",
+        tracing: "Tracing",
+        quick: "Quick",
+        delivery: "Delivery",
+
+        order_now: "Order Now",
+
+        // Suggestions section
+        crispy: "Cripsy",
+        sandwiches: "Sandwiches",
+        best_deals: "Best deals",
+        sandwiches_phrase: "Enjoy the large side of sandwiches. Complete perfect slice of sandwiches.",
+
+        chicken_title: "Celebrate parties with",
+        fried: "Fried",
+        chicken: "Chicken",
+        chicken_phrase: "Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken.",
+
+        pizza_title: "Wanna eat hot & spicy",
+        pizza_qmark: "Pizza?",
+        pizza_phrase: "Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.",
+
+        order_btn: "PROCEED TO ORDER >",
     }  
 }
 

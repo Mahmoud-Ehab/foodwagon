@@ -1,3 +1,4 @@
+import { strings } from "@/app/strings"
 import Image from "next/image"
 
 export default function Middle() {
@@ -12,8 +13,8 @@ export default function Middle() {
                         alt="icon"
                     />
                     <div className="flex flex-col text-3xl mx-8">
-                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">Daily</span>
-                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">Discount</span>
+                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">{strings.daily}</span>
+                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">{strings.discount}</span>
                     </div>
                 </div>
                 <div className="flex flex-row justify-center items-center p-4">
@@ -24,8 +25,8 @@ export default function Middle() {
                         alt="icon"
                     />
                     <div className="flex flex-col text-3xl mx-8">
-                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">Live</span>
-                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">Tracing</span>
+                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">{strings.live}</span>
+                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">{strings.tracing}</span>
                     </div>
                 </div>
                 <div className="flex flex-row justify-center items-center p-4">
@@ -36,8 +37,8 @@ export default function Middle() {
                         alt="icon"
                     />
                     <div className="flex flex-col text-3xl mx-8">
-                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">Quick</span>
-                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">Delivery</span>
+                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">{strings.quick}</span>
+                        <span className="inline-block text-transparent bg-gradient-to-r from-special to-primary-dark bg-clip-text">{strings.delivery}</span>
                     </div>
                 </div>
             </div>   

@@ -85,7 +85,9 @@ export function ItemCard({item}: {item: ItemInfo}) {
                     ${item.price.toFixed(2)}
                 </span>
             </div>
-            <button className="btn btn-wide w-full bg-special hover:bg-primary-dark text-fill-light border-0">Order Now</button>
+            <button className="btn btn-wide w-full bg-special hover:bg-primary-dark text-fill-light border-0">
+                {strings.order_now}
+            </button>
         </div>
     );
 }
