@@ -1,7 +1,12 @@
+import Header from '@/app/ui/sections/header'
+import Populars from './ui/sections/populars';
+import { Source_Sans_700 } from './fonts';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
+    <main className={`${Source_Sans_700.className} flex flex-col min-h-screen`}>
+      <Header />
+      <Populars />
     </main>
   );
 }
