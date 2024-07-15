@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Middle() {
     return (
         <div className="flex justify-center items-center w-screen h-auto p-16 bg-secondary">
-            <div className="grid grid-cols-3 divide-x-2 justify-center items-center w-auto p-8 bg-fill-light shadow-[0_15px_60px_-20px] shadow-primary-normal rounded-3xl">
+            <div className="grid grid-rows-0 md:grid-cols-3 divide-y-2 md:divide-y-0 md:divide-x-2 justify-center items-center h-auto w-auto p-8 bg-fill-light shadow-[0_15px_60px_-20px] shadow-primary-normal rounded-3xl">
                 <div className="flex flex-row justify-center items-center p-4">
                     <Image 
                         src={"/icons/discount.svg"}

@@ -8,7 +8,7 @@ import { Source_Sans_700 } from './fonts';
 
 export default function Home() {
   return (
-    <main className={`${Source_Sans_700.className} flex flex-col min-h-screen overflow-hidden`}>
+    <main className={`${Source_Sans_700.className} antialiased flex flex-col min-h-screen overflow-hidden smooth`}>
       <Header />
       <Populars />
       <Middle />

@@ -10,7 +10,7 @@ export default function Populars() {
                 <h1 className="text-4xl text-special">
                     {strings.hdiw_title}
                 </h1>
-                <div className="flex flex-row">
+                <div className="flex flex-col md:flex-row">
                     <FeatureCard 
                         img_url="/icons/map-marker.svg"
                         head={strings.hdiw_item1_head}
