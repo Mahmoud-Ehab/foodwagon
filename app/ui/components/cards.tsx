@@ -6,7 +6,7 @@ import { MapPinIcon } from '@heroicons/react/24/solid';
 
 export function DiscountCard({card}: {card: DiscountInfo}) {
     return (
-        <div className="w-72 mx-3">
+        <div className="w-72 mx-3 my-8 md:my-0">
             <figure className="relative rounded-xl overflow-hidden">
                 <div className="absolute flex justify-center items-end px-4 bg-primary-dark text-fill-light bottom-0 rounded-tr-3xl">
                     <span className="text-6xl">{card.discount}</span>
